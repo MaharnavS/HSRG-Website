@@ -1,0 +1,170 @@
+body
+{
+	background-color: #222629;
+	width: 100%;
+	overflow-x: hidden;
+	margin: 0;
+}
+
+div.title
+{
+	margin-top: 5vh;
+	margin-left: 5%;
+	width: 100%;
+	height: 10vh;
+	border-left: 0.6vh #86C232 solid;
+	position: relative;
+}
+
+p.title
+{
+	margin: 0;
+	line-height: 10vh;
+	font-size: 6.66vh;
+	text-align: left;
+	margin-left: 5%;
+	color: #86C232;
+	position: absolute;
+}
+
+div.faculty_wrapper
+{
+	width: 100%;
+	height: 80vh;
+}
+
+div.faculty
+{
+	height: 20vh;
+	width: 45%;
+	position: absolute;
+}
+
+.aniket_alam
+{
+	margin-left: 3%;
+	margin-right: 2%;
+	margin-top: 5vh;
+}
+
+.radhika_krishnan
+{
+	margin-left: 52%;
+	margin-right: 3%;
+	margin-top: 5vh;
+}
+
+.sushmita_banerji
+{
+	margin-left: 3%;
+	margin-right: 2%;
+	margin-top: 30vh;
+}
+
+.ashwin_jayanti
+{
+	margin-left: 52%;
+	margin-right: 3%;
+	margin-top: 30vh;
+}
+
+.nazia_akhtar
+{
+	margin-left: 3%;
+	margin-right: 2%;
+	margin-top: 55vh;
+}
+
+.aakansha_natani
+{
+	margin-left: 52%;
+	margin-right: 3%;
+	margin-top: 55vh;
+}
+
+
+img.faculty_image
+{
+	height: 20vh;
+	border: 0.4vh #86C232 solid;
+	border-radius: 50%;
+	position: absolute;
+}
+
+a.faculty_image
+{
+	text-decoration: none;
+}
+
+img.faculty_image:hover
+{
+	border: 0.8vh #86C232 solid;
+	transition: linear;
+	transition-duration: 200ms;
+}
+
+p.faculty_name
+{
+	width: 70%;
+	height: 5vh;
+	line-height: 5vh;
+	font-size: 3.33vh;
+	margin-top: 1vh;
+	position: absolute;
+	margin-left: 40%;
+	color: white;
+	text-align: left;
+}
+
+a.faculty_name
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+p.faculty_name:hover
+{
+	color: #86C232;
+	transition: linear;
+	transition-duration: 100ms;
+}
+
+p.faculty_info
+{
+	width: 70%;
+	height: 13vh;
+	position: absolute;
+	margin-left: 40%;
+	margin-top: 6vh;
+	margin-bottom: 1vh;
+	text-align: left;
+	line-height: 3vh;
+	font-size: 2vh;
+	color: #7a7d80;
+}
+
+a.faculty_info
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+a.faculty_info:hover
+{
+	color: #86C232;
+	transition: linear;
+	transition-duration: 100ms;
+}
+
+div.student_wrapper
+{
+	width: 100%;
+	height: ;
+}
+
+div.student
+{
+	height: 20vh;
+	width: 45%;
+	position: absolute;
+}
