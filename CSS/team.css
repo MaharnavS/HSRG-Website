@@ -23,6 +23,7 @@ p.title
 	font-size: 6.66vh;
 	text-align: left;
 	margin-left: 5%;
+	font-family: text_content;
 	color: #86C232;
 	position: absolute;
 }
@@ -30,56 +31,27 @@ p.title
 div.faculty_wrapper
 {
 	width: 100%;
-	height: 80vh;
+	height: 20vh;
+	position: relative;
+	margin-top: 5vh;
 }
 
-div.faculty
+div.faculty_1
 {
 	height: 20vh;
 	width: 45%;
 	position: absolute;
-}
-
-.aniket_alam
-{
-	margin-left: 3%;
+	margin-left: 10%;
 	margin-right: 2%;
-	margin-top: 5vh;
 }
 
-.radhika_krishnan
+div.faculty_2
 {
-	margin-left: 52%;
+	height: 20vh;
+	width: 45%;
+	position: absolute;
+	margin-left: 56%;
 	margin-right: 3%;
-	margin-top: 5vh;
-}
-
-.sushmita_banerji
-{
-	margin-left: 3%;
-	margin-right: 2%;
-	margin-top: 30vh;
-}
-
-.ashwin_jayanti
-{
-	margin-left: 52%;
-	margin-right: 3%;
-	margin-top: 30vh;
-}
-
-.nazia_akhtar
-{
-	margin-left: 3%;
-	margin-right: 2%;
-	margin-top: 55vh;
-}
-
-.aakansha_natani
-{
-	margin-left: 52%;
-	margin-right: 3%;
-	margin-top: 55vh;
 }
 
 
@@ -112,6 +84,7 @@ p.faculty_name
 	margin-top: 1vh;
 	position: absolute;
 	margin-left: 40%;
+	font-family: text_content;
 	color: white;
 	text-align: left;
 }
@@ -120,6 +93,7 @@ a.faculty_name
 {
 	text-decoration: none;
 	color: inherit;
+	font-family: inherit;
 }
 
 p.faculty_name:hover
@@ -137,6 +111,7 @@ p.faculty_info
 	margin-left: 40%;
 	margin-top: 6vh;
 	margin-bottom: 1vh;
+	font-family: text_content;
 	text-align: left;
 	line-height: 3vh;
 	font-size: 2vh;
@@ -147,6 +122,7 @@ a.faculty_info
 {
 	text-decoration: none;
 	color: inherit;
+	font-family: inherit;
 }
 
 a.faculty_info:hover
@@ -156,15 +132,227 @@ a.faculty_info:hover
 	transition-duration: 100ms;
 }
 
-div.student_wrapper
+div.batch
 {
+	margin-top: 5vh;
+	margin-left: 10%;
 	width: 100%;
-	height: ;
+	height: 6vh;
+	border-left: 0.3vh #86C232 solid;
+	position: relative;
 }
 
-div.student
+p.batch
 {
-	height: 20vh;
-	width: 45%;
+	margin: 0;
+	line-height: 6vh;
+	font-size: 4vh;
+	text-align: left;
+	margin-left: 3%;
+	color: #86C232;
+	font-family: text_content;
 	position: absolute;
+}
+
+div.student_wrapper
+{
+	margin-top: 5vh;
+	width: 100%;
+	height: 25vh;
+	position: relative;
+}
+
+div.student_1
+{
+	height: 25vh;
+	width: 17vh;
+	--horizontal_margin: calc(7% + (93% - 85vh) / 6);
+	margin-left: var(--horizontal_margin);
+	border: 0.4vh #86C232 solid;
+	border-radius: 5vh;
+	position: absolute;
+}
+
+img.student_1
+{
+	margin-top: 1vh;
+	margin-left: 1vh;
+	height: 15vh;
+	position: absolute;
+	border-radius: 50%;
+}
+
+p.student_1
+{
+	height: 4vh;
+	line-height: 4vh;
+	font-family: text_content;
+	font-size: 2.66vh;
+	color: #7a7d80;
+	text-align: center;
+	margin-top: 16vh;
+	margin-bottom: 1vh;
+}
+
+div.student_1:hover
+{
+	border: 0.8vh #86C232 solid;
+	transition-duration: 100ms;
+	transition: linear;
+}
+
+div.student_2
+{
+	height: 25vh;
+	width: 17vh;
+	--horizontal_margin: calc(2 * ((93% - 85vh) / 6) + 7% + 17vh);
+	margin-left: var(--horizontal_margin);
+	border: 0.4vh #86C232 solid;
+	border-radius: 5vh;
+	position: absolute;
+}
+
+img.student_2
+{
+	margin-top: 1vh;
+	margin-left: 1vh;
+	height: 15vh;
+	position: absolute;
+	border-radius: 50%;
+}
+
+p.student_2
+{
+	height: 4vh;
+	line-height: 4vh;
+	font-family: text_content;
+	font-size: 2.66vh;
+	color: #7a7d80;
+	text-align: center;
+	margin-top: 16vh;
+	margin-bottom: 1vh;
+}
+
+div.student_2:hover
+{
+	border: 0.8vh #86C232 solid;
+	transition-duration: 100ms;
+	transition: linear;
+}
+
+div.student_3
+{
+	height: 25vh;
+	width: 17vh;
+	--horizontal_margin: calc(3 * ((93% - 85vh) / 6) + 7% + 34vh);
+	margin-left: var(--horizontal_margin);
+	border: 0.4vh #86C232 solid;
+	border-radius: 5vh;
+	position: absolute;
+}
+
+img.student_3
+{
+	margin-top: 1vh;
+	margin-left: 1vh;
+	height: 15vh;
+	position: absolute;
+	border-radius: 50%;
+}
+
+p.student_3
+{
+	height: 4vh;
+	line-height: 4vh;
+	font-family: text_content;
+	font-size: 2.66vh;
+	color: #7a7d80;
+	text-align: center;
+	margin-top: 16vh;
+	margin-bottom: 1vh;
+}
+
+div.student_3:hover
+{
+	border: 0.8vh #86C232 solid;
+	transition-duration: 100ms;
+	transition: linear;
+}
+
+div.student_4
+{
+	height: 25vh;
+	width: 17vh;
+	--horizontal_margin: calc(4 * ((93% - 85vh) / 6) + 7% + 51vh);
+	margin-left: var(--horizontal_margin);
+	border: 0.4vh #86C232 solid;
+	border-radius: 5vh;
+	position: absolute;
+}
+
+img.student_4
+{
+	margin-top: 1vh;
+	margin-left: 1vh;
+	height: 15vh;
+	position: absolute;
+	border-radius: 50%;
+}
+
+p.student_4
+{
+	height: 4vh;
+	line-height: 4vh;
+	font-family: text_content;
+	font-size: 2.66vh;
+	color: #7a7d80;
+	text-align: center;
+	margin-top: 16vh;
+	margin-bottom: 1vh;
+}
+
+div.student_4:hover
+{
+	border: 0.8vh #86C232 solid;
+	transition-duration: 100ms;
+	transition: linear;
+}
+
+div.student_5
+{
+	height: 25vh;
+	width: 17vh;
+	--horizontal_margin: calc(5 * ((93% - 85vh) / 6) + 7% + 68vh);
+	margin-left: var(--horizontal_margin);
+	border: 0.4vh #86C232 solid;
+	border-radius: 5vh;
+	position: absolute;
+}
+
+img.student_5
+{
+	margin-top: 1vh;
+	margin-left: 1vh;
+	height: 15vh;
+	position: absolute;
+	border-radius: 50%;
+}
+
+p.student_5
+{
+	height: 4vh;
+	line-height: 4vh;
+	font-family: text_content;
+	font-size: 2.66vh;
+	color: #7a7d80;
+	text-align: center;
+	margin-top: 16vh;
+	margin-bottom: 1vh;
+}
+
+div.student_5:hover
+{
+	border: 0.8vh #86C232 solid;
+	transition-duration: 100ms;
+	transition: linear;
 }
