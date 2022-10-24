@@ -57,10 +57,12 @@ div.faculty_2
 
 img.faculty_image
 {
+	width: 20vh;
 	height: 20vh;
 	border: 0.4vh #86C232 solid;
 	border-radius: 50%;
 	position: absolute;
+	object-fit: cover;
 }
 
 a.faculty_image
