@@ -94,7 +94,7 @@ ul.navigation_bar
 li.navigation_button
 {
 	float: right;
-	font-family: text_button;
+	font-family: text_content;
 	text-align: center;
 	height: 4vh;
 	line-height: 4vh;
