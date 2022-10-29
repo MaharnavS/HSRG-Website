@@ -3,92 +3,29 @@
 	<head>
 		<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>HSRG - Homepage</title>
-		<link rel="stylesheet" type="text/css" href="./CSS/homepage.css">
-		<link rel="stylesheet" type="text/css" href="./CSS/menubar.css">
-		<link rel="stylesheet" type="text/css" href="./CSS/orientation.css">
-		<link rel="stylesheet" type="text/css" href="./CSS/font.css">
+		<link rel="stylesheet" type="text/css" href="/Assets/CSS/background.css">
+		<link rel="stylesheet" type="text/css" href="/Assets/CSS/font.css">
+		<link rel="stylesheet" type="text/css" href="/Assets/CSS/header.css">
+		<link rel="stylesheet" type="text/css" href="/Assets/CSS/orientation.css">
+		<link rel="stylesheet" type="text/css" href="/Assets/CSS/homepage.css">
 	</head>
-	<span class="landscape">
-		<body>
-			<div class="header">
-				<div class="branding">
-					<a class="branding" href="./index.html">
-						<div class="logo_image">
-							<img class="logo_image" src="./Media/Homepage/Logo.svg" alt="HSRG Logo">
-						</div>
-					</a>
-					<div class="name_initials">
-						<p class="name_initials">
-							HSRG
-						</p>
-					</div>
-				</div>
-				<div class="navigation_bar">
-					<ul class="navigation_bar">
-						<li class="navigation_button">
-							<a class="navigation_bar" href="./Web/contact.html">
-								Contact
-							</a>
-						</li>
-<!--					<li class="navigation_button">-->
-<!--						<a class="navigation_bar" href="./Web/events.html">-->
-<!--							Blog-->
-<!--						</a>-->
-<!--					</li>-->
-						<li class="navigation_button">
-							<a class="navigation_bar" href="./Web/team.html">
-								Team
-							</a>
-						</li>
-						<li class="navigation_button">
-							<a class="navigation_bar" href="./Web/events.html">
-								Events
-							</a>
-						</li>
-<!--					<li class="navigation_button">-->
-<!--						<a class="navigation_bar" href="./Web/publications.html">-->
-<!--							Publications-->
-<!--						</a>-->
-<!--					</li>-->
-<!--					<li class="navigation_button">-->
-<!--						<a class="navigation_bar" href="./Web/projects.html">-->
-<!--							Projects-->
-<!--						</a>-->
-<!--					</li>-->
-						<li class="navigation_button">
-							<a class="navigation_bar" href="./Web/courses.html">
-								Courses
-							</a>
-						</li>
-						<li class="navigation_button">
-							<a class="navigation_bar" href="./Web/research.html">
-								Research
-							</a>
-						</li>
-						<li class="navigation_button">
-							<a class="navigation_bar" href="./index.html">
-								Home
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
+	<body>
+		<span class="landscape">
+			<include src="/Web/header_homepage.html"></include>
 			<div class="welcome">
 				<p class="welcome">
-					Human Science Research<br>
-					Group
+					Human Science Research Group
 				</p>
 				<p class="about">
 					The Human Sciences Research Group in IIIT Hyderabad is a unique attempt to bring together the social sciences and computer sciences. We believe that understanding the nature of transformations brought to the fore by digital technologies requires the two disciplines to speak to each other. We intend to do so by using the best of research skills in both the humanities and the social sciences on the one hand, and computer sciences on the other. Our students use cutting edge tools in the computer sciences to answer questions traditionally raised by the social sciences. They also use social science methods to understand the ethical, political and sociological implications of the world which has been transformed by modern technologies.
 				</p>
 			</div>
-		</body>
-	</span>
-	<span class="portrait">
-		<body>
+		</span>
+		<span class="portrait">
 			<h1 style="text-align: center; color: white;">
 				This website is best viewed in landscape
 			</h1>
-		</body>
-	</span>
+		</span>
+		<script src="https://unpkg.com/htmlincludejs"></script>
+	</body>
 </html>

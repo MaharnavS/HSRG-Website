@@ -3,9 +3,3 @@
 	font-family: 'text_content';
 	src: url('../Fonts/Exo_2/static/Exo2-Regular.ttf');
 }
-
-@font-face
-{
-	font-family: 'text_button';
-	src: url('../Fonts/');
-}

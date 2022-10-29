@@ -73,8 +73,8 @@ a.faculty_image
 img.faculty_image:hover
 {
 	border: 0.8vh #86C232 solid;
+	transition-duration: 100ms;
 	transition: linear;
-	transition-duration: 200ms;
 }
 
 p.faculty_name
