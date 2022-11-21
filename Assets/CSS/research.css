@@ -1,0 +1,72 @@
+div.introduction
+{
+	width: 100%;
+	position: relative;
+	height: 65vh;
+}
+
+p.title
+{
+	font-family: text_content;
+	width: 100%;
+	text-align: center;
+	height: 20vh;
+	line-height: 10vh;
+	font-size: 6.67vh;
+	margin-top: 6vh;
+	margin-bottom: 5vh;
+	position: absolute;
+	color: white;
+}
+
+p.about
+{
+	font-family: text_content;
+	width: 75%;
+	text-align: center;
+	height: 30vh;
+	line-height: 4vh;
+	font-size: 2.66vh;
+	margin-left: 12.5%;
+	margin-top: 31vh;
+	margin-bottom: 4vh;
+	position: absolute;
+	color: #7a7d80;
+}
+
+div.links
+{
+	height: 20vh;
+	position: relative;
+	border: solid black 5px;
+}
+
+a.link
+{
+	text-decoration: none;
+	font-family: text_content;
+	color: white;
+	line-height: 6vh;
+	font-size: 4vh;
+	margin-top: 7vh;
+	margin-bottom: 7vh;
+	position: absolute;
+	width: 30%;
+}
+
+.pub
+{
+	margin-left: ;
+}
+
+.pro
+{
+	
+}
+
+a.links:hover
+{
+	color: #86C232;
+	transition: ease;
+	transition-duration: 100ms;
+}

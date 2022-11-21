@@ -3,7 +3,6 @@ div.welcome
 	width: 100%;
 	position: relative;
 	height: 80vh;
-	position: relative;
 }
 
 p.welcome
@@ -30,7 +29,7 @@ p.about
 	font-size: 2.66vh;
 	margin-left: 12.5%;
 	margin-top: 40vh;
-	margin-bottom: 7vh;
+	margin-bottom: 6vh;
 	position: absolute;
 	color: #7a7d80;
 }
