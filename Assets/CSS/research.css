@@ -2,7 +2,7 @@ div.introduction
 {
 	width: 100%;
 	position: relative;
-	height: 65vh;
+	height: 60vh;
 }
 
 p.title
@@ -14,7 +14,6 @@ p.title
 	line-height: 10vh;
 	font-size: 6.67vh;
 	margin-top: 6vh;
-	margin-bottom: 5vh;
 	position: absolute;
 	color: white;
 }
@@ -28,8 +27,7 @@ p.about
 	line-height: 4vh;
 	font-size: 2.66vh;
 	margin-left: 12.5%;
-	margin-top: 31vh;
-	margin-bottom: 4vh;
+	margin-top: 26vh;
 	position: absolute;
 	color: #7a7d80;
 }
@@ -38,33 +36,34 @@ div.links
 {
 	height: 20vh;
 	position: relative;
-	border: solid black 5px;
 }
 
 a.link
 {
 	text-decoration: none;
 	font-family: text_content;
+	text-align: center;
 	color: white;
 	line-height: 6vh;
 	font-size: 4vh;
-	margin-top: 7vh;
 	margin-bottom: 7vh;
 	position: absolute;
-	width: 30%;
+	width: 25%;
 }
 
 .pub
 {
-	margin-left: ;
+	margin-left: 20%;
+	margin-right: 5%;
 }
 
 .pro
 {
-	
+	margin-left: 55%;
+	margin-right: 25%;
 }
 
-a.links:hover
+a.link:hover
 {
 	color: #86C232;
 	transition: ease;
