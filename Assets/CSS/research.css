@@ -22,7 +22,7 @@ p.about
 {
 	font-family: text_content;
 	width: 75%;
-	text-align: center;
+	text-align: justify;
 	height: 30vh;
 	line-height: 4vh;
 	font-size: 2.66vh;
@@ -44,28 +44,32 @@ a.link
 	font-family: text_content;
 	text-align: center;
 	color: white;
-	line-height: 6vh;
-	font-size: 4vh;
+	line-height: 4.5vw;
+	font-size: 3vw;
 	margin-bottom: 7vh;
 	position: absolute;
-	width: 25%;
+	border: 0.4vh solid white;
+	text-align: center;
+	border-radius: 3.6vh;
+	transition: transform 0.2s;
 }
 
 .pub
 {
-	margin-left: 20%;
-	margin-right: 5%;
+	width: 20vw;
+	margin-left: 20vw;
 }
 
 .pro
 {
-	margin-left: 55%;
-	margin-right: 25%;
+	width: 14vw;
+	margin-left: 60vw;
+	margin-right: 20vw;
 }
 
 a.link:hover
 {
 	color: #86C232;
-	transition: ease;
-	transition-duration: 100ms;
+	border: 0.8vh solid #86C232;
+	transform: scale(1.2);
 }

@@ -1,0 +1,94 @@
+div.faculty_card
+{
+	position: relative;
+	height: 80vh;
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+}
+
+div.faculty_name
+{
+	position: absolute;
+	margin-left: 41.6vh;
+	height: 10vh;
+	--width_object: calc(100% - 41.6vh);
+	width: var(--width_object);
+}
+
+p.faculty_name
+{
+	position: relative;
+	height: 10vh;
+	margin: 0;
+	text-align: right;
+	color: white;
+	font-family: text_content;
+	font-size: 6.67vh;
+	line-height: 10vh;
+}
+
+div.faculty_image
+{
+	position: absolute;
+	height: 50vh;
+	width: 40vh;
+	border: 0.8vh solid #86C232;
+	border-radius: 1.6vh;
+	margin-top: 5vh;
+}
+
+img.faculty_image
+{
+	position: relative;
+	height: 50vh;
+	width: 40vh;
+	object-fit: cover;
+	border: none;
+	border-radius: 0.9vh;
+}
+
+div.faculty_post
+{
+	position: absolute;
+	height: 15vh;
+	width: 40vh;
+	margin-top: 60vh;
+}
+
+p.faculty_post
+{
+	position: relative;
+	font-family: text_content;
+	line-height: 4vh;
+	font-size: 2.67vh;
+	margin: 0;
+	color: white;
+	text-align: center;
+}
+
+div.faculty_info
+{
+	position: absolute;
+	height: 64vh;
+	--width_object: calc(100% - 41.6vh + 5vw);
+	width: var(--width_object);
+	margin-left: 41.6vh;
+	margin-top: 14vh;
+	overflow-y: scroll;
+}
+
+p.faculty_info
+{
+	--width_object: calc(100% - 10vh);
+	width: var(--width_object);
+	position: relative;
+	margin: 0;
+	text-align: justify;
+	color: #7a7d80;
+	font-family: text_content;
+	font-size: 3vh;
+	margin-left: 5vh;
+}
